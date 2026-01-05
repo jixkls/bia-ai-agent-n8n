@@ -1439,6 +1439,22 @@ Desenvolvido como parte de um teste técnico para demonstrar habilidades em:
 
 ---
 
+## 🔄 Changelog
+
+### v1.1.0 (2026-01-05)
+- ✅ Configuração de timezone para America/Sao_Paulo no banco
+- ✅ Cancelamento de eventos por nome da pessoa
+- ✅ Correção na condição do If para roteamento correto
+- ✅ Novo nó `Get many events3` para busca flexível no cancelamento
+
+### v1.0.0
+- 🎉 Release inicial
+- Criar, atualizar e cancelar eventos
+- Consulta de disponibilidade
+- Transcrição de áudio
+- Memória de contexto
+
+
 ## 📜 Licença
 
 Este projeto é apenas para fins de demonstração e avaliação técnica.
