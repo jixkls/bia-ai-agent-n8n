@@ -421,6 +421,16 @@ Anote:
 | Google Calendar | OAuth2 | Client ID, Client Secret |
 | Google Gemini | API Key | API Key |
 
+### Configuração de Timezone
+
+O banco está configurado para `America/Sao_Paulo`:
+
+```sql
+ALTER DATABASE postgres SET timezone TO 'America/Sao_Paulo';
+```
+
+Isso garante que os horários sejam salvos e exibidos corretamente no fuso de Brasília.
+
 ### 7. Importar Workflow
 
 1. Vá em **Workflows** → **Import from File**
