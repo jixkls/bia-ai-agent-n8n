@@ -59,7 +59,7 @@ Bia é um agente conversacional avançado que permite aos usuários gerenciar se
 - ✅ **Tratamento robusto de erros** - Mensagens amigáveis + registro completo no banco
 - ✅ **Logs completos** - Rastreabilidade total de todas as operações
 - ✅ **Retry automático** - Tentativas com backoff progressivo em falhas
-- ✅ **Verificação de disponibilidade** - Consulta FreeBusy antes de criar eventos
+- ✅ **Verificação de disponibilidade** - Consulta Free/Busy antes de criar eventos
 
 ---
 
@@ -138,7 +138,7 @@ Bia é um agente conversacional avançado que permite aos usuários gerenciar se
 │  ┌─────────────────────────────────────────────────────────────────────────────────┐│
 │  │                              Google Calendar API                                 ││
 │  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌───────────────────────┐  ││
-│  │  │  FreeBusy   │  │   Create    │  │   Update    │  │       Delete          │  ││
+│  │  │  Free/Busy   │  │   Create    │  │   Update    │  │       Delete          │  ││
 │  │  │  (Check)    │  │   Event     │  │   Event     │  │       Event           │  ││
 │  │  └─────────────┘  └─────────────┘  └─────────────┘  └───────────────────────┘  ││
 │  └─────────────────────────────────────────────────────────────────────────────────┘│
